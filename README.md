@@ -1,5 +1,5 @@
 # Vim_Dots
-Vim Dotfiles .vimrc
+Vim Dotfiles [.vimrc](.vimrc)
 
 > Note Plugin Manager is [vim-plug](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/junegunn/vim-plug&ved=2ahUKEwiK18rp79ONAxXfF1kFHa12NpIQFnoECBkQAQ&usg=AOvVaw32SuSCCpUjlJDguHYioMys)
 
