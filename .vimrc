@@ -11,11 +11,21 @@ Plug 'junegunn/goyo.vim'
 Plug 'godlygeek/tabular'
 Plug 'preservim/vim-markdown'
 Plug 'ap/vim-css-color'
+Plug 'altercation/vim-colors-solarized'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
-colorscheme dracula
+syntax enable
+set background=dark
+colorscheme solarized
 set clipboard=unnamedplus
 set nocompatible
 filetype plugin on
 syntax on
-let mapleader = "."
+let mapleader = " "
+
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
